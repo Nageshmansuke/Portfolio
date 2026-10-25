@@ -20,24 +20,24 @@ export default function PeerReviews() {
     },
     {
       quote:
-        "Consistently solved 300+ challenges spanning Data Structures and Algorithms on LeetCode with focused practice on optimal time and space complexity.",
-      name: "300+ Problems Solved",
+        "Consistently solved 260+ challenges spanning Data Structures and Algorithms on LeetCode with focused practice on optimal time and space complexity.",
+      name: "260+ Problems Solved",
       designation: "LeetCode Practice",
-      src: "/project_images/ezy.webp",
+      src: "/leetcode_profile.png",
     },
     {
       quote:
         "Selected among the Top 10 teams at HackFusion 2.0, a state-level hackathon, for developing and presenting high-impact software solutions under competitive time constraints.",
       name: "Top 10 Finalist",
       designation: "HackFusion 2.0 Hackathon",
-      src: "/project_images/idcard.webp",
+      src: "/hackfusion_certificate.png",
     },
     {
       quote:
         "Served as Joint Coordinator for the annual college cultural fest UTSAV, coordinating cross-functional team execution, schedules, and event planning.",
       name: "Campus Leadership",
       designation: "Joint Coordinator — UTSAV Fest",
-      src: "/nagesh.png",
+      src: "/utsav_fest.png",
     },
   ];
 

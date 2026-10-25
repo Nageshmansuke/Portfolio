@@ -8,8 +8,8 @@ export const projects = [
     desc: "A multi-agent autonomous developer system designed to triage failed builds and tests, analyze stack traces and Git history, and generate targeted code patches. Features JS/TS and Python AST parsing to inspect code structures, isolated test execution in Docker or subprocess fallback, real-time streaming pipeline logs via SSE, Git diff review, and automated PR summaries.",
     extra: "Multi-agent triage workflow; JS/TS & Python AST inspection; isolated test execution via Docker; streaming pipeline logs with SSE; Git diff patch generation; Prisma & PostgreSQL persistence.",
     tags: ["Next.js", "React", "TypeScript", "Python", "Google Gemini", "Docker", "Prisma", "PostgreSQL", "SQLite", "SSE"],
-    live: "https://github.com/nageshmansuke",
-    github: "https://github.com/nageshmansuke",
+    live: "https://github.com/Nageshmansuke/Agents-Everywhere",
+    github: "https://github.com/Nageshmansuke/Agents-Everywhere",
     image: "/project_images/hydra_agent.jpg",
     stats: [
       { value: "Multi-Agent", label: "Triage & Patch Gen" },
@@ -27,7 +27,7 @@ export const projects = [
     extra: "Role-Based Access Control (RBAC) across student, teacher, and admin workflows; real-time classrooms powered by Socket.IO and WebRTC; Google Gemini API study assistance; modular REST APIs with MongoDB models.",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.IO", "WebRTC", "JWT", "Google Gemini API", "Tailwind CSS"],
     live: "https://eduhive-gilt.vercel.app/",
-    github: "https://github.com/nageshmansuke",
+    github: "https://github.com/Nageshmansuke/EduHive",
     image: "/project_images/ezy.webp",
     stats: [
       { value: "RBAC", label: "Role-Based Access" },
@@ -42,8 +42,8 @@ export const projects = [
     title: "QuakeGuard AI — Seismic Risk Assessment Platform",
     desc: "A building seismic-risk assessment platform using structural inputs such as material, foundation type, floor system, building age, and plinth area. Features a dual-model ML prediction workflow with Decision Tree and Logistic Regression to estimate damage severity and risk probability, paired with a LangChain RAG pipeline referencing IS 4326 and IS 13828 with ChromaDB retrieval and Gemini-generated guidance.",
     tags: ["Python", "Flask", "scikit-learn", "pandas", "NumPy", "LangChain", "ChromaDB", "Gemini", "MySQL", "SQLite", "Docker"],
-    github: "https://github.com/nageshmansuke",
-    live: "https://github.com/nageshmansuke",
+    github: "https://github.com/Nageshmansuke/QuakeGuard-AI",
+    live: "https://github.com/Nageshmansuke/QuakeGuard-AI",
     image: "/project_images/quakeguard_ai.jpg",
     stats: [
       { value: "Dual ML", label: "Decision Tree & LogReg" },
@@ -58,7 +58,7 @@ export const projects = [
     title: "Official SGGSIE&T Institutional Web System",
     desc: "Production web modules developed and maintained for the official website of Shri Guru Gobind Singhji Institute of Engineering and Technology during my internship at Bit Solve. Developed responsive React.js interfaces integrated with Node.js, Express.js, and MongoDB RESTful APIs. Awarded Certificate of Appreciation for architecting and deploying the system.",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "Tailwind CSS", "Git", "Postman"],
-    github: "https://github.com/nageshmansuke",
+    github: "https://github.com/Nageshmansuke",
     live: "https://www.sggs.ac.in/",
     image: "/project_images/solar_crm.png",
     stats: [
@@ -74,7 +74,7 @@ export const projects = [
     title: "TALK-ORBIT — Real-Time Chat Application",
     desc: "A full-stack messaging platform engineered for one-to-one and group conversations with live message delivery. Built with Socket.IO event-driven architecture, persistent MongoDB chat history, JWT authentication, and a responsive interface synchronized across users and devices.",
     tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.IO", "JWT", "Tailwind CSS"],
-    github: "https://github.com/nageshmansuke",
+    github: "https://github.com/Nageshmansuke/TALK-ORBIT",
     live: "https://talk-orbit-qaki.vercel.app/",
     image: "/project_images/video_meet.webp",
     stats: [

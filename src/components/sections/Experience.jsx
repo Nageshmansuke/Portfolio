@@ -83,7 +83,7 @@ export default function Experience() {
                   zIndex: 5
                 }} className="kk-milestone-date">
                   <div style={{ ...mono, fontSize: 11, color: c.clay, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", marginBottom: 2 }}>Jun 2026</div>
-                  <div style={{ ...serif, fontSize: 15, color: c.ink, fontWeight: 600 }}>Aug 2026</div>
+                  <div style={{ ...serif, fontSize: 15, color: c.ink, fontWeight: 600 }}>Sep 2026</div>
                 </div>
               </div>
 
@@ -115,7 +115,7 @@ export default function Experience() {
                       </span>
                       <div style={{ display: "flex", alignItems: "center", gap: 6, ...mono, fontSize: 12, color: c.inkFaint }}>
                         <Calendar size={13} />
-                        12 June 2026 - 12 August 2026
+                        June 2026 - September 2026
                       </div>
                     </div>
 
@@ -236,8 +236,7 @@ export default function Experience() {
                   position: "relative",
                   zIndex: 5
                 }} className="kk-milestone-date">
-                  <div style={{ ...mono, fontSize: 11, color: c.clay, fontWeight: 700, letterSpacing: 1, textTransform: "uppercase", marginBottom: 2 }}>2023</div>
-                  <div style={{ ...serif, fontSize: 15, color: c.ink, fontWeight: 600 }}>2027</div>
+                  <div style={{ ...serif, fontSize: 16, color: c.ink, fontWeight: 700 }}>2025</div>
                 </div>
               </div>
 
@@ -269,7 +268,7 @@ export default function Experience() {
                       </span>
                       <div style={{ display: "flex", alignItems: "center", gap: 6, ...mono, fontSize: 12, color: c.inkFaint }}>
                         <Calendar size={13} />
-                        2023 - 2027
+                        2025
                       </div>
                     </div>
 
@@ -403,10 +402,10 @@ export default function Experience() {
       <style>{`
         @media (max-width: 800px) {
           .kk-road-track {
-            left: 40px !important;
+            left: 36px !important;
           }
           .kk-milestone-row {
-            grid-template-columns: 80px 1fr !important;
+            grid-template-columns: 72px 1fr !important;
             gap: 16px !important;
           }
           .kk-milestone-left {
@@ -422,16 +421,51 @@ export default function Experience() {
             height: 16px !important;
           }
           .kk-milestone-date {
-            margin-top: 16px !important;
+            margin-top: 14px !important;
+            padding: 6px 10px !important;
           }
           .kk-milestone-date > div:first-child {
             font-size: 9px !important;
           }
           .kk-milestone-date > div:last-child {
-            font-size: 14px !important;
+            font-size: 13px !important;
           }
           .kk-milestone-card-container {
             width: 100% !important;
+          }
+        }
+        @media (max-width: 540px) {
+          .kk-road-track {
+            left: 20px !important;
+            width: 16px !important;
+          }
+          .kk-milestone-row {
+            grid-template-columns: 42px 1fr !important;
+            gap: 12px !important;
+          }
+          .kk-milestone-dot {
+            width: 28px !important;
+            height: 28px !important;
+            box-shadow: 0 0 0 4px #FAF7F0 !important;
+          }
+          .kk-milestone-dot svg {
+            width: 13px !important;
+            height: 13px !important;
+          }
+          .kk-milestone-date {
+            margin-top: 10px !important;
+            padding: 4px 6px !important;
+            border-radius: 10px !important;
+          }
+          .kk-milestone-date > div {
+            font-size: 11px !important;
+          }
+          .kk-milestone-date > div:first-child {
+            font-size: 8.5px !important;
+          }
+          .kk-milestone-card-container > div > div {
+            padding: 18px 14px !important;
+            border-radius: 12px !important;
           }
         }
       `}</style>
